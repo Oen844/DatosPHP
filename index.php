@@ -18,11 +18,28 @@
 // var_dump($tags);
 // echo "</pre>";
 
-$courses = ['javascript', 'php', 'laravel'];
-echo implode(', ', $courses);
+// $courses = ['javascript', 'php', 'laravel'];
+// echo implode(', ', $courses);
 
-$course = "   Curso de php    ";
-$course = trim($course);
-echo '<pre>';
-echo "Quiero aprender $course y otro texto";
+// $course = "   Curso de php    ";
+// $course = trim($course);
+// echo '<pre>';
+// echo "Quiero aprender $course y otro texto";
 
+//Alterar
+
+// $text = "PHP es UN LENGUAJE";
+// echo strtolower($text);
+// echo ucfirst($text);
+
+//Reemplazar
+
+// $text = "PHP es UN LENGUAJE";
+// $slug = str_replace(' ', '-', $text);
+// echo strtolower($slug);
+
+//Modificar
+// $text = "<h1>PHP es UN LENGUAJE</h1>";
+$code = 39;
+// echo str_pad($code, 8, '#', STR_PAD_LEFT);
+// echo strip_tags($text);
