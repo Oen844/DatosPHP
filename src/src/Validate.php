@@ -13,4 +13,8 @@ class Validate
     {
         return (bool) filter_var($url, FILTER_VALIDATE_URL);
     }
+    public static function password($pass)
+    {
+        return (bool) preg_match('/^[0-9]{6,9}$/', $pass);
+    }
 }
